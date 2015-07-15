@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleNumView">
+        <attr name="CircleText" format="string"/>
+        <attr name="IsLearned" format="boolean"/>
+    </declare-styleable>
+</resources>
