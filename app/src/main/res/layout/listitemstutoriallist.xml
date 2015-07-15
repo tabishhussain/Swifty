@@ -25,7 +25,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:alpha="0.5"
-            android:background="@drawable/roundcorner"
+            android:background="#42000000"
             >
 
             <LinearLayout

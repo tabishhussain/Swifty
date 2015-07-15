@@ -8,20 +8,22 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="0.7"></LinearLayout>
+        android:layout_weight="0.63"
+        android:id="@+id/layoutHeader"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"></LinearLayout>
 
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="0.3"
+        android:layout_weight="0.37"
          >
 
-        <ListView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/listView2"
-            android:dividerHeight="0dp"/>
 
+        <FrameLayout
+            android:id="@+id/listfragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></FrameLayout>
     </LinearLayout>
 </LinearLayout>

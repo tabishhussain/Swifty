@@ -16,10 +16,11 @@
             android:layout_weight="0.7">
 
             <com.tabishhassan.swifty.customview.CircleNumView
+                android:id="@+id/customindex"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 custom:IsLearned="false"
-                custom:CircleText="0"/>
+                />
 
         </LinearLayout>
 
@@ -37,7 +38,7 @@
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="Medium Text"
-                android:id="@+id/textView4" />
+                android:id="@+id/textlessonname" />
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>

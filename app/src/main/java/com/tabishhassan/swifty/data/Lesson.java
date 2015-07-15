@@ -7,7 +7,7 @@ public class Lesson {
     private String name = "";
     private boolean is_Learned = false;
 
-    public Lesson(String name , Boolean is_Learned)
+    public Lesson(String name , boolean is_Learned)
     {
         this.name = name;
         this.is_Learned = is_Learned;
